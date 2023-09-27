@@ -8,31 +8,34 @@
 
 ## Pengertian HTML
 
-        HTML (Hypertest Markup Language) merupakan bahasa markup yang digunakan untuk membuat sebuah halaman web dan menampilkan berbagai informasi di dalam sebuah browser. HTML berupa kode-kode tag yang menginstruksikan browser untuk menghasilkan tampilan sesuai dengan yang diinginkan. HTML memiliki struktur yang fleksibel, tanpa lojik serta toleran terhadap kesalahan. Standar minimal dari dokumen HTML terdiri dari: 
+        HTML (Hypertest Markup Language) merupakan bahasa markup yang digunakan untuk membuat sebuah halaman web dan menampilkan berbagai informasi di dalam sebuah browser. 
+        HTML berupa kode-kode tag yang menginstruksikan browser untuk menghasilkan tampilan sesuai dengan yang diinginkan. 
+        HTML memiliki struktur yang fleksibel, tanpa lojik serta toleran terhadap kesalahan. Standar minimal dari dokumen HTML terdiri dari: 
 
-    1. Document Type Declaration (DTD)
-    2. Document Header
-    3. Document Body
+     1. Document Type Declaration (DTD)
+     2. Document Header
+     3. Document Body
 
-    ```html
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>...</title>
-    </head>
-    <body>
-        
-    </body>
-    </html>
-    ```
+    
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>...</title>
+        </head>
+        <body>
+            
+        </body>
+        </html>
+
 
 # Praktikum 1
 
 1. Membuat Paragraf
 
-        Paragraf merupakan kumpulan dari beberapa kalimat. Pada dokumen web, paragraf biasanya digunakan untuk menampilkan teks atau artikel Paragraf pada dokumen HTML dibuat dengan tag <p>
+        Paragraf merupakan kumpulan dari beberapa kalimat. 
+        Pada dokumen web, paragraf biasanya digunakan untuk menampilkan teks atau artikel Paragraf pada dokumen HTML dibuat dengan tag <p>
 
     Script:
 
@@ -67,7 +70,8 @@
 
 2. Menambahkan Judul
 
-        Heading merupakan sebuah judul yang biasanya digunakan pada sebuah halaman artikel pada web. Atau terkadang dibeberapa bagian dari halaman web. Judul atau heading pada dokumen HTML dapat dibuat dengan menggunakan tag <h1> sampai <h6>. Tag <h1> merupakan judul pada lever pertama, kemudian level berikutnya atau sub judul pada tag <h2> dan seterusnya sampai tag <h6>.
+        Heading merupakan sebuah judul yang biasanya digunakan pada sebuah halaman artikel pada web. Atau terkadang dibeberapa bagian dari halaman web. 
+        Judul atau heading pada dokumen HTML dapat dibuat dengan menggunakan tag <h1> sampai <h6>. Tag <h1> merupakan judul pada lever pertama, kemudian level berikutnya atau sub judul pada tag <h2> dan seterusnya sampai tag <h6>.
 
     Script:
 
@@ -98,11 +102,12 @@
 
 3. Memformat teks
 
-     Ada beberapa tag yang dapat digunakan untuk memformat teks pada paragraf. Diantaranya adalah sebagai berikut:
+        Ada beberapa tag yang dapat digunakan untuk memformat teks pada paragraf. Diantaranya adalah sebagai berikut:
 
-    - <b>      (Bold text)
-    - <strong> ( Important text)
-    - <i>      ( Italic text), dsb...
+        - <b>      (Bold text)
+        - <strong> ( Important text)
+        - <i>      ( Italic text), dsb...
+
 
     Script:
 
@@ -138,7 +143,9 @@
 
 4. Menyisipkan Gambar
 
-        Image atau gambar dapat disisipkan kedalam halaman web. HTML menyediakan tag khusus untuk dapat menampilkan gambar. Tag yang digunakan untuk menampilkan gambar adalah <img> dengan atribut src sebagai URL atau Path file gambar berada. Tag ini dapat memuat gambar dengan berbagai jenis ekstensi file gambar.
+        Image atau gambar dapat disisipkan kedalam halaman web. HTML menyediakan tag khusus untuk dapat menampilkan gambar. 
+        Tag yang digunakan untuk menampilkan gambar adalah <img> dengan atribut src sebagai URL atau Path file gambar berada. 
+        Tag ini dapat memuat gambar dengan berbagai jenis ekstensi file gambar.
 
     Script:
 
@@ -170,7 +177,9 @@
 
 5. Menambahkan Hyperlink
 
-        Link atau Hyperlink merupakan elemen HTML yang berfungsi untuk menghubungkan satu halaman web dengan halaman web yang lain, baik internal maupun eksternal. Link juga dapat menghubungkan beberapa bagian pada halaman yang sama atau disebut sebagai Anchor. Elemen link ini dapat diklik sehingga akan membuka halaman atau bagian sesuai dengan URL yang diberikan pada link tersebut. Untuk membuat Hyperlink atau Anchor menggunakan tag <a> dengan menambahkan atribut href sebagai penentu URL yang dimaksud.
+        Link atau Hyperlink merupakan elemen HTML yang berfungsi untuk menghubungkan satu halaman web dengan halaman web yang lain, baik internal maupun eksternal. 
+        Link juga dapat menghubungkan beberapa bagian pada halaman yang sama atau disebut sebagai Anchor. Elemen link ini dapat diklik sehingga akan membuka halaman atau bagian sesuai dengan URL yang diberikan pada link tersebut. 
+        Untuk membuat Hyperlink atau Anchor menggunakan tag <a> dengan menambahkan atribut href sebagai penentu URL yang dimaksud.
 
     Script:
 
